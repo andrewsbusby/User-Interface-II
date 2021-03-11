@@ -1,5 +1,5 @@
-/* reset css */
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+/* reset css*/
+/* html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
@@ -12,9 +12,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	}
+	} */
 /* remember to define focus styles! */
-:focus {
+/* :focus {
 	outline: 0;
 	}
 body {
@@ -24,20 +24,79 @@ body {
 	}
 ol, ul {
 	list-style: none;
-	}
+	} */
 /* tables still need cellspacing="0" in the markup */
-table {
+/* table {
 	border-collapse: separate;
 	border-spacing: 0;
 	}
 caption, th, td {
 	font-weight: normal;
 	text-align: left;
-	}
+	} */
 /* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
+/* blockquote:before, blockquote:after, q:before, q:after {
 	content: "";
 	}
 blockquote, q {
 	quotes: "" "";
-	}
+	}  */
+
+
+    /* header and nav */
+* {
+    max-width: 100%;
+    border: 1px solid black;
+}
+body {
+    background-image: linear-gradient(#abc, #1155ee) ;
+}
+.header {
+    display: flex;
+}
+h1 {
+    font-size: 3.3rem;
+}
+.nav  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+
+}
+.links {
+    background: #555;
+    padding: 2%;
+    text-decoration: none;
+    color: white;
+}
+section {
+    margin: auto;
+    padding: 5%;
+}
+.hero {
+    width: 75%;
+    height: 40vh;
+    display: flex;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: rgba(18, 121, 9, 0.5);
+
+}
+.hero-img {
+    width: 75%;
+    height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1615481188054-c56ecfc752e5?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: fill;
+    padding: 3%;
+    margin:0 2% 2% 2%;
+}
+.button{
+    background: #a11;
+    padding: 1%;
+    color: #aaa;
+}
