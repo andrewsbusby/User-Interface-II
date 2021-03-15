@@ -49,7 +49,7 @@ blockquote, q {
     /* border: 1px solid black; */
 }
 body {
-    background-image: linear-gradient(#abc, #1155ee) ;
+    background-image: linear-gradient(#abc, #1155ee, #abc) ;
 }
 /* Header */
 .header {
