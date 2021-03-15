@@ -51,6 +51,7 @@ blockquote, q {
 body {
     background-image: linear-gradient(#abc, #1155ee) ;
 }
+/* Header */
 .header {
     display: flex;
     margin: 2%;
@@ -75,6 +76,7 @@ nav a:hover {
     text-decoration: none;
     color: white;
 }
+/* Hero */
 section {
     margin: auto;
     padding: 5%;
@@ -104,9 +106,12 @@ button{
     padding: 1%;
     color: rgb(73, 43, 182);
 }
+/* Projects */
 .projects {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25%;
 }
 .projects div {
     width: 10%;
@@ -123,6 +128,7 @@ button{
     text-decoration: none;
     color: white;
 }
+/* Footer */
 footer {
     width: 65%;
     height: 35vh;
@@ -152,12 +158,13 @@ footer a {
     padding: 1%;
 }
 /* Mobile */
-@media(max-width: 500px){
+@media(min-width: 500px){
     /* header */
     .header{
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 5%;
     }
     .links{
         display: flex;
@@ -165,6 +172,7 @@ footer a {
         width: 25%;
         margin: 4% 3%;
         margin-left: 35%;
+        z-index: 999;
     }
     /* hero */
     .hero{
@@ -213,4 +221,69 @@ footer a {
         width: 10%;
         height: 10%; 
     }
+}
+/* Tablet */
+@media(max-width: 800px){
+        /* header */
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 5%;
+        }
+        .links{
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            margin: 4% 3%;
+            margin-left: 35%;
+        }
+        /* hero */
+        .hero{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .hero-img{
+            width: 80%;
+        }
+        .hero div{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 25%;
+        }
+        .hero p{
+            padding: 5%;
+            margin: 15%;
+        }
+        .me{
+            display: none;
+        }
+        /* Projects */
+        .projects{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
+        .projects div{
+          padding-top: 40%;
+          width: 45%;
+        }
+        .pj{
+            margin: auto;
+        }
+        /* Footer */
+        footer{
+            width: 85%;
+            height: 40vh;
+        }
+        .linkedin{
+            width: 6%;
+            height: 6%;
+        }
+        .github{
+            width: 6%;
+            height: 6%; 
+        }
 }
