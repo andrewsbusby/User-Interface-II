@@ -158,7 +158,7 @@ footer a {
     padding: 1%;
 }
 /* Mobile */
-@media(min-width: 500px){
+@media(max-width: 500px){
     /* header */
     .header{
         display: flex;
@@ -178,9 +178,13 @@ footer a {
     .hero{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 25%;
     }
     .hero-img{
+        display: flex;
+        justify-content: center;
         width: 80%;
+        z-index: 500;
     }
     .hero div{
         display: flex;
@@ -242,6 +246,7 @@ footer a {
         .hero{
             display: flex;
             flex-direction: column-reverse;
+            margin-top: 20%;
         }
         .hero-img{
             width: 80%;
