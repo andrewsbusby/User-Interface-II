@@ -128,9 +128,6 @@ button{
     text-decoration: none;
     color: white;
 }
-.cichlid{
-    background-image: url(C:\Users\elder\web42\Portfolio\images\cichlidhaven.png);
-}
 /* Footer */
 footer {
     width: 65%;
@@ -164,6 +161,7 @@ footer a {
 .aboutb{
     margin: auto;
     padding: 1%;
+    background-image:radial-gradient(#aaa, #1188ff)
 }
 .ah1{
     margin: 5%;
