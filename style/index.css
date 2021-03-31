@@ -157,6 +157,17 @@ footer a {
     height: 2.5%;
     padding: 1%;
 }
+/* ABOUT PAGE */
+.ah1{
+    margin: 5%;
+    width: 50%;
+}
+.about_me{
+    margin: auto;
+    width: 65%;
+    padding: 5%;
+    background-color: rgba(100, 100, 100, .4);
+}
 /* Mobile */
 @media(max-width: 500px){
     /* header */
