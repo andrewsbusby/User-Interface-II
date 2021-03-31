@@ -67,8 +67,8 @@ h1 {
     width: 50%;
 }
 nav a:hover {
-    background-color: #aa11aa;
-    color: #ee1111;
+    background-color: #ffa;
+    color: #222;
 }
 .links {
     background: #555;
@@ -158,11 +158,16 @@ footer a {
     padding: 1%;
 }
 /* ABOUT PAGE */
+.aboutb{
+    margin: auto;
+    padding: 1%;
+}
 .ah1{
     margin: 5%;
     width: 50%;
 }
 .about_me{
+    color: rgb(25, 25, 50);
     margin: auto;
     width: 65%;
     padding: 5%;
