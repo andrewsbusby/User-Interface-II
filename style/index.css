@@ -128,6 +128,15 @@ button{
     text-decoration: none;
     color: white;
 }
+
+.pj1 a {
+    margin: auto;
+    padding: 20%;
+    width: 45%;
+    height: 45%;
+    text-align: center;
+    background-image: src('../images/cichlidhaven.png');
+}
 /* Footer */
 footer {
     width: 65%;
