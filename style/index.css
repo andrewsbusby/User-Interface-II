@@ -130,6 +130,8 @@ button{
 }
 
 .pj1 a {
+    text-decoration: none;
+    color: white;
     margin: auto;
     padding: 20%;
     width: 45%;
