@@ -1,0 +1,15 @@
+img {
+    width: 45%;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    padding: 3%;
+}
+
+.discription {
+    font-size: 1.4rem;
+    width: 45%;
+    background-color: rgba(100, 75, 50, 0.2);
+    margin: auto;
+    padding: 3%;
+}
